@@ -8,7 +8,7 @@ node v14.10.0
 npm  6.14.9
 ```
 ```
-gulp 
+gulp
 
 CLI version: 2.3.0
 Local version: 4.0.2
@@ -23,7 +23,6 @@ npx gulp
 │   ├── css
 │   └── index.html
 ├── gulpfile.js
-├── index.html
 ├── package-lock.json
 ├── package.json
 └── src
