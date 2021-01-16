@@ -3,10 +3,43 @@ html(lang="ja")
   head
     meta(charset="utf-8")
     mata(name="description" content="")
+    //- TODO title
+    title 仮タイトル
+    link(rel="stylesheet", href="css/destyle.css")
   body
     header
-      p header
+      .container
+        .area_header_logo
+          a(href="#").logo
+            img(src="", alt="")
+        nav.nav_header
+          ul.list_nav_header
+            li: a(href="#") Profile.
+            li: a(href="#") Skill.
+            li: a(href="#") Hobby.
     main
-      p main
+      section.area_main_view
+        .container
+          //- TODO　アイコンの挿入
+          img(src="", alt="")
+          p.name Yuichi Kadota
+          p.intro Backend Engineer at MeadiaDo Co.Ltd
+      // プロフィール
+      section.area_main_profile
+        .container
+          .head_main: h2.ttl Profile.
+      // スキル
+      section.area_main_skill
+        .container
+          .head_main: h2.ttl Skill.
+      // 趣味など
+      section.area_main_hobby
+        .container
+          .head_main: h2.ttl Hobby.
     footer
-      p footer
+     .container
+      ul.list_link
+        li.github: a(href="#")
+        li.twitter: a(href="#")
+        li.hatena: a(href="#")
+      p.copyright @2021 YuichiKadota
