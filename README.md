@@ -1,6 +1,6 @@
 # portforio
 - portiforio-static-site
-# develop
+# Require
 ```
 node v14.10.0
 ```
@@ -31,3 +31,4 @@ npx gulp
     └── *.pug
 
 ```
+- /destにはコンパイル後のhtml/cssを配置
