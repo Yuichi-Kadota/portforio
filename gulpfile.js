@@ -5,12 +5,12 @@ const pug = require("gulp-pug");
 // Sassをコンパイルする
 const compileSass = () =>
     src("src/css/*.scss")
-    .pipe(
-        sass({
-            outputStyle: "expanded"
-        })
-    )
-    .pipe(dest("dest/css"));
+        .pipe(
+            sass({
+                outputStyle: "expanded"
+            })
+        )
+        .pipe(dest("dest/css"));
 
 // Sassファイルを監視
 const watchSassFiles = () =>
@@ -19,12 +19,12 @@ const watchSassFiles = () =>
 // pugをコンパイルする
 const compilePug = () =>
     src("src/*.pug")
-    .pipe(
-        pug({
-            pretty: true
-        })
-    )
-    .pipe(dest("dest"));
+        .pipe(
+            pug({
+                pretty: true
+            })
+        )
+        .pipe(dest("dest"));
 
 // pugファイルを監視
 const watchPugFiles = () =>
