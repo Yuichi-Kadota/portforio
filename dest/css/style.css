@@ -62,13 +62,13 @@ header .container {
   font: 400 18px/1em 'futura PT', 'noto sans japanese',sans-serif;
 }
 
-/* main_view*/
-.area_main_view {
-  background: #01010a;
+/* top_view*/
+.area_top_view {
+  background: url(../img/top_view.jpg) no-repeat bottom center;
   background-size: cover;
 }
 
-.area_main_view .container {
+.area_top_view .container {
   height: 700px;
   display: flex;
   flex-direction: column;
@@ -76,13 +76,13 @@ header .container {
   justify-content: center;
 }
 
-.area_main_view .container img {
+.area_top_view .container img {
   height: 150px;
   vertical-align: bottom;
   border-radius: 50%;
 }
 
-.area_main_view .container p {
+.area_top_view .container p {
   color: #fff;
   margin: 20px 0 0;
   letter-spacing: .06em;
